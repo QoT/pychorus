@@ -1,10 +1,15 @@
 from __future__ import division
 
-# conda create --name pychorus_my
-# conda activate pychorus_my
+# git clone https://github.com/QoT/pychorus
+#
+# conda create --name pychorus
+# conda activate pychorus
 # conda install python
 # pip install librosa
 # pip install moviepy
+
+# usage e.g.
+# python detect.py -m3u "/Users/nickburrett/Downloads/Input Files/playlist.m3u"
 
 import os
 import argparse
