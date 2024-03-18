@@ -31,7 +31,7 @@ python detect.py -m3u "/Users/nickburrett/Downloads/Input Files/playlist.m3u"
 
 or for individual file:
 
-python detect.py -m3u "/Users/nickburrett/Downloads/Input Files/50 Cent - In Da Club (Clean Single).mp4"
+python detect.py "/Users/nickburrett/Downloads/Input Files/50 Cent - In Da Club (Clean Single).mp4"
 
 ```
 
