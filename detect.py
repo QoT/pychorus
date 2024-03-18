@@ -28,14 +28,17 @@ def rename_file(name, chorus):
         
         # define the new file names
         new_filename = f"{filename[0]}_{formatted_val1}_{formatted_val2}_true.mp4"
+        new_filename = new_filename.replace(' - ','_')
 
         # rename the file using the os module
         os.rename(name, new_filename)
+        
     else:
         new_filename = f"{filename[0]}_false.mp4"
 
         # rename the file using the os module
         os.rename(name, new_filename)
+        
 
 def enumerate_files(args):
     if not args.m3u is None:
